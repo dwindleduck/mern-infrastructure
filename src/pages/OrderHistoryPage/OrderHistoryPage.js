@@ -11,7 +11,6 @@ export default function OrderHistoryPage() {
     <>
         <h2>Order History Page</h2>
         <button onClick={handleCheckToken}>Check When My Login Expires</button>
-        
     </>
     )
 }

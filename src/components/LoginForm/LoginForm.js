@@ -37,7 +37,7 @@ export default function LoginForm({ setUser }) {
           <input 
             type="text" 
             name="email" 
-            alue={credentials.email} 
+            value={credentials.email} 
             onChange={handleChange} 
             required />
           <label>Password</label>
